@@ -4,7 +4,7 @@ namespace app\controllers;
 
 class MahasiswaController extends \yii\web\Controller
 {
-    public function actionBlokAkun()
+    public function actionBlokAkun($nim)
     {
         return $this->render('blok-akun');
     }
